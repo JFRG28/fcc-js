@@ -19,5 +19,7 @@ console.log(lowerCaseInput);
 let lowercaseWord = "camelcase";
 let camelCasedVersion = "";
 console.log(`Camel cased version:`);
-console.log(camelCasedVersion);
 camelCasedVersion = lowercaseWord.slice(0,5);
+camelCasedVersion += lowercaseWord.charAt(5).toUpperCase();
+camelCasedVersion += lowercaseWord.slice(-3);
+console.log(camelCasedVersion);
