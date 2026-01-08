@@ -1,1 +1,1 @@
-console.log(learningIsFunSentence.indexOf("Learning"));
+console.log(`The word ${platform} was sliced from the message.`);
