@@ -1,1 +1,1 @@
-selectedFortune
+console.log(calculateSquare(9));
